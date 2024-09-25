@@ -5,6 +5,7 @@ import { initializeApp } from "firebase/app";
 const firebaseConfig = {
     apiKey: "AIzaSyD8EbFZSsS6ZZKKuHjLR-zR1MqJdyuaqGM",
     authDomain: "react-hook-form-a457a.firebaseapp.com",
+    databaseURL: "https://react-hook-form-a457a-default-rtdb.firebaseio.com",
     projectId: "react-hook-form-a457a",
     storageBucket: "react-hook-form-a457a.appspot.com",
     messagingSenderId: "72367308259",
@@ -14,4 +15,4 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export default app
+export default app;

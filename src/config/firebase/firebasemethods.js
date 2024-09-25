@@ -146,6 +146,7 @@ const updateDocument = async (obj, id, name) => {
     })
 }
 
+
 async function uploadImage(files, email) {
     const storageRef = ref(storage, email);
     try {
